@@ -108,5 +108,3 @@ ifEvenDouble = ifEven2 double
 ifEvenSquare = ifEven2 square
 
 binaryPartialApplication f x = (\y -> f x y)
-
-repeat2 x = cycle [x]
