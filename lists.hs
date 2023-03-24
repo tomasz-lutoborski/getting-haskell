@@ -43,8 +43,7 @@ fastFib _ _ 1 = 1
 fastFib _ _ 2 = 1
 fastFib x y 3 = x + y
 fastFib x y c = fastFib (x + y) x (c - 1)
-
-fib n = fastFib 1 1 n
+fastFib n = fastFib 1 1 n
 
 myMap f [] = []
 myMap f (x : xs) = (f x) : myMap f xs
