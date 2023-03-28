@@ -1,8 +1,4 @@
-{-# OPTIONS_GHC -Wno-unrecognised-pragmas #-}
-
 import Control.Monad
-
-{-# HLINT ignore "Redundant bracket" #-}
 
 data Name = Name
   { firstName :: String,
